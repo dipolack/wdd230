@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dorca Polack</title>
-    <meta name="description" content="description of page using keywords">
+    <meta name="description" content="Web portal to portray all my assignments for graders and instructors to see">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato" rel="stylesheet">
     <meta name="author" content="Dorca Polack">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link href="css/css1.css" rel="stylesheet">
+    <link href="css/css2.css" rel="stylesheet">
 </head>
-<body>
-    <header><h1>Dorca Polack</h1></header>
-    <nav>
 
-    </nav>
-    <main>
-    <input type ="text" id="q">
+<body onload="allMyFunctions()">
+    <script src="js/all.js"></script> 
+
+    <header>
+          <img src="images/photo.jpg" alt="Student's profile: Dorca Polack">
+          <h1>Dorca I Polack</h1>
+    </header>
+
+<main>
+    <section>
+    <h2>WDD 230: Assignment Portal</h2>
+    <hr>
+    </section>
+      
+    <ul>
+    <li>Lesson 2: <a href="lesson2/design-principles.html">Design Principles Document</a></li>
+    <li>Lesson 3: <a href="lesson3/index.html">Website Planning Document</a></li>
+      
     </main>
-    <footer> Ⓒ <span id="copyrightyear"></span>  | BYU-I | WDD230 Winter 2023</footer>
-    <script src ="scripts/app.js"></script>
-</body>
-</html>
+    <footer>
+    <p>&copy;<span id="currentyear"></span> | Dorca I Polack | NJ | <a href="https://www.byui.edu/online">BYU-Idaho</a>
+    </p>
+    <div>Last Updated: <span id="lastmodified"></span></div>
+    </footer>
+    <script src="js/currentyear.js"></script>
+    <script src="js/lastmodified.js"></script>
+      
+    </body>
+    </html>
