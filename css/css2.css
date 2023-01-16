@@ -15,7 +15,7 @@
 
     header img {
         float: right;
-        box-shadow: 5px 5px 5px #dac2d8;
+        box-shadow: 5px 5px 5px  #1d1d1d;
         border-top-right-radius: 8px;
     }
 }
