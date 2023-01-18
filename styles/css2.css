@@ -8,9 +8,15 @@
         font-size: 25px;
     }
 
-    header,
-    footer {
+    header, footer {
+        padding: 20px;
+        display: grid;
+        background-color: #EFD8C7;
+        grid-template-columns: 30% 42%;
         border-radius: 15px;
+        z-index: 15;
+        justify-content: space-around;
+        box-shadow: 1px 1px 25px black;
     }
 
     header img {
