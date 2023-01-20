@@ -46,8 +46,8 @@ body {
 
 header,
 footer {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: #c2bdbd;
+    color: rgb(8, 8, 8);
     text-align: center;
     padding: 1.25rem;
     border-radius: 10px;

@@ -16,7 +16,7 @@
         border-radius: 15px;
         z-index: 15;
         justify-content: space-around;
-        box-shadow: 1px 1px 25px black;
+        box-shadow: 1px 1px 25px rgb(0, 0, 0);
     }
 
     header img {
