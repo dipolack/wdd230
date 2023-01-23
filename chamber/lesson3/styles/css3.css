@@ -34,7 +34,7 @@ body {
 header {
     padding: 20px;
     /* display: grid; */
-    background-color: #717A7B;
+    background-color: #c2bdbd;
     /* grid-template-columns: 22% 34%; */
     border-radius: 15px;
     /* z-index: 15; */
@@ -43,9 +43,9 @@ header {
 }
 
 footer {
-    background-color: #717A7B;
+    background-color: #c2bdbd;
     position: relative;
-    color: white;
+    color: black;
     padding: 0.75em;
     border-radius: 5px;
     text-align: center;

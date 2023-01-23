@@ -19,8 +19,8 @@ p {
 
 header {
 
-    color: white;
-    background-color: #001524;
+    color: rgb(0, 0, 0);
+    background-color: #c2bdbd;
     text-align: center;
     padding: .2rem;
 }
@@ -57,8 +57,8 @@ ol {
 }
 
 footer {
-    color: white;
-    background-color: #001524;
+    color: rgb(4, 4, 4);
+    background-color: #c2bdbd;
     padding: 1rem;
     text-align: center;
 }
