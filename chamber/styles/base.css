@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
+
+:root{
+    background-color: #717A7B;
+    color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+    font-family: 'PT Serif', serif;
+}
+body {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+	background-color: #1D7F70;
+	display: grid;
+    grid-template-columns: 8fr 2fr 1fr;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	color: #f4f7f5;
+}
+
+header div {
+    display: flex;
+    flex-flow: row;
+}
+
+header div #datetime{
+    background-color: #C2BDBD;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    width: 100%; 
+}
+
+.date-header {
+    grid-column: 1/4;
+}
+
+.menu {
+    grid-column: 1/4;
+}
+
+.logo {
+    width: 4rem;
+}
+
+footer {
+	background-color: #1D7F70;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px; 
+    font-size: 15px;
+    color: rgb(241, 246, 242);
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: black;
+}
+
+p {
+	padding: .5rem;
+}
+h1, p {
+    margin: 0 2vw;
+}
+
+header div button, a {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #F5CB32;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header div a {
+    margin: 1.5rem;
+}
+
+header .social a {
+    margin: 0;
+}
+
+header div nav {
+    background-color: #aab7b9;
+}
+
+header div nav ul {
+    list-style-type: none;
+	flex: auto;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li a {
+    display: block;
+    padding: .6rem 2vw;
+    text-decoration: none;
+	color: black;
+    border-top: 1px solid #717A7B; 
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+}
+
+header div nav ul li.active a {
+    background-color: #dee2c7;
+    color: black;
+}
+
+header div nav ul li a:hover {
+    background-color: #dee2c7;
+}
+
+header div nav ul {
+    display: none;
+}
+
+header div nav ul.open {
+    display: block;
+}
+
+#hamburguerBtn span:nth-child(1) {display: block}
+#hamburguerBtn span:nth-child(2) {display: none}
+
+#hamburguerBtn.open span:nth-child(1) {display: none}
+#hamburguerBtn.open span:nth-child(2) {display: block}
+
+main {
+	justify-content: center;
+	font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+header div {
+    width: 100%;
+}
+
+header div nav {
+    width: 100%;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content:space-between;
+    font-weight: 300; 
+    margin-top: 1rem;
+}
+
+.title-footer h2 {
+    color: rgb(255, 255, 255);
+}
+
+main h1, h2, h3, h4, p, li {
+    padding: 10px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+aside {
+    background-color: #c2bdbd;
+    padding: 15px;
+}
+
+main div {
+    background-color: #dee2c7;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.date-header {
+    text-align: center;
+}
+
+.hide-small {
+    display: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.hero {
+    position: relative;
+    padding: 0; 
+}
+
+#temperature {
+    text-align: right;
+    font-size: 36px;
+    right: 15px;
+}
+
+.contact a {
+    font-size: 20px;
+}
