@@ -62,7 +62,7 @@ footer {
 	justify-content: center;
 	padding: 10px; 
     font-size: 15px;
-    color: rgb(241, 246, 242);
+    color: rgb(255, 255, 255);
 }
 
 header,
@@ -93,7 +93,7 @@ header div button, a {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #F5CB32;
+    color: #ffffff ;
     
 }
 
