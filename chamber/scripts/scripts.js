@@ -8,13 +8,14 @@ const dateField = document.querySelector("#datetime");
 const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(date);
 dateField.innerHTML = fullDate;
 
-let hamburger = document.querySelector('#hamburger');
-let nav = document.querySelector('header');
+function toggleMenu() {
+    document.getElementById('primaryNav').classList.toggle('open');
+    document.getElementById('hamburguerBtn').classList.toggle('open');
+}
 
-hamburger.addEventListener('click', () => {
-    nav.classList.toggle('responsive');
+const x = document.getElementById('hamburguerBtn');
 
-});
+x.onclick = toggleMenu;
 
 weekday = date.getDay();
 
