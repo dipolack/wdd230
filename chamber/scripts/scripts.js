@@ -1,34 +1,26 @@
-date = new Date(Date.now());
-document.querySelector('#©').textContent = date.getFullYear();
+let currentDate = document.lastModified;
+document.querySelector('#dateMod').textContent = currentDate;
 
-const options = 
-{ weekday: 'long', 
-year: 'numeric', 
-month: 'numeric', 
-day: 'numeric' };
+let date = new Date();
+let year = date.getFullYear();
+document.querySelector('#datetime').innerHTML = year;
+const dateField = document.querySelector("#datetime");
+const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(date);
+dateField.innerHTML = fullDate;
 
-document.querySelector('#dateMod').textContent = 
-new Date(Date.now()).toLocaleString();
+let hamburger = document.querySelector('#hamburger');
+let nav = document.querySelector('header');
 
-const options2 = 
-{ weekday: 'long', 
-year: 'numeric', 
-month: 'long', 
-day: 'numeric' };
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('responsive');
 
-
-document.querySelector('#datetime').textContent = 
-new Date(Date.now()).toLocaleString('en-UK',options2);
-
-function toggleMenu() {
-    document.getElementById('primaryNav').classList.toggle('open');
-    document.getElementById('hamburguerBtn').classList.toggle('open');
-}
-
-const x = document.getElementById('hamburguerBtn');
-
-x.onclick = toggleMenu;
-
-article = document.querySelector('#message');
+});
 
 weekday = date.getDay();
+
+if (weekday === 1 || weekday === 4){
+    article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m!";
+    article.setAttribute('class', 'banner-message');
+}
+
+let joint=document.querySelectorAll('.join-us');
