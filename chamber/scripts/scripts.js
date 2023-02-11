@@ -17,11 +17,12 @@ const x = document.getElementById('hamburguerBtn');
 
 x.onclick = toggleMenu;
 
-weekday = date.getDay();
+let day = date.getDay();
 
-if (weekday === 1 || weekday === 4){
-    article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m!";
-    article.setAttribute('class', 'banner-message');
+if (day == 1 || day == 2) {
+    let banner = document.querySelector('.banner');
+    banner.style.display = 'block';
+} else {
+    let banner = document.querySelector('.banner');
+    banner.style.display = 'none';
 }
-
-let joint=document.querySelectorAll('.join-us');
