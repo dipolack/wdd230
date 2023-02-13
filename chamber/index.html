@@ -19,7 +19,7 @@
     <header>
     
         <div class="headname">
-           <img class="logo" src="images/logo.jpg" alt="website name">
+           <img class="logo" src="images/logo.webp" alt="website name">
            <h1 class="header-title">Lodi can do it</h1>
         </div>
         <div class="social">
@@ -50,9 +50,7 @@
         <div class="hero">
             <h1>Welcome to Lodi!</h1>
             <!--<img src="images/lodi.jpg" alt="Lodinj"> -->
-            <source media="(min-width: 48em)" srcset="images/herotemporaryl">
-            <source media="(min-width: 37.5em)" srcset="images/herotemporarym"> 
-                <img src="images/herotemporarys.webp" alt="temporary picture week 6">
+            <img src="images/herotemporary.webp" srcset="images/herotemporary.webp 900w, images/herotemporary.webp 950w, images/herotemporary.webp 390w">
 
     </div>
 
@@ -64,10 +62,14 @@
             </div>
             
         <div class="weather"><h2>Lodi's Weather</h2>
-           <h2><img src="images/weather.png" alt="weatherpicture"> 25°F°C</h2> 
+           <h2><img src="images/weather.png" alt="weatherpicture"> 
+            <span id="temperature"></span> ℉</h2>
+            <hr>
             <h3>Clear with periodic clouds</h3>
             <hr>
-            <p>Wind: 10 mph</p>
+            <h3>Wind Speed: <span id="wind-speed"></span> mph</h3>
+            <h3>Wind Chill: <span id="wind-chill"></span> ℉</h3>
+            
         </div>
  
         <div class="news"> <h3>About us</h3>
@@ -111,7 +113,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="images/logo.jpg" alt="website logo">
+            <img class="logo-footer" src="images/logo.webp" alt="website logo">
                 </div>
                 <div class="title-footer">
                     <h2>Lodi can do it!</h2>
@@ -130,5 +132,6 @@
                 </div>                 
             </footer>
             <script src="scripts/scripts.js"></script>
+            <script src="scripts/windchill.js"></script>
         </body>
         </html>
