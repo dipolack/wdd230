@@ -29,6 +29,12 @@ header {
 	color: #f4f7f5;
 }
 
+.social {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 header div {
     display: flex;
     flex-flow: row;
