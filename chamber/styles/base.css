@@ -244,6 +244,18 @@ span {
     margin: 0 auto;
 }
 
+.herotemp {
+    display: block;
+    width: 96%;
+
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    margin: 0 2%;
+}
+
 .hero {
     grid-column: 2/3;
     display: grid;
@@ -252,10 +264,7 @@ span {
     justify-content: center;
     padding: 0;
 }
- 
-.hero > img {
-    width: 100%;
-}
+
 
 #temperature {
     text-align: right;

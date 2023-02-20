@@ -49,9 +49,13 @@
         <div class="hero">
             <h1>Welcome to Lodi!</h1>
             <!--<img src="images/lodi.jpg" alt="Lodinj"> -->
-                <source media="(max-width: 940px)" srcset="images/herotemporary.webp">
-                <source media="(max-width: 425px)" srcset="images/herotemporary.webp">
-                <img src="images/herotemporary.webp" alt="Temporary hero week 6">
+            <picture class="herotemp">
+                <source media="(min-width: 300px) and (max-width:699px)" srcset="images/herotemporary.webp">
+                <source media="(min-width: 700px) and (max-width:990px)" srcset="images/herotemporary.webp">
+                <source media="(min-width: 1000px)" srcset="images/herotemporary.webp">
+                <img class="hero-image" src="images/herotemporary.webp"
+                    alt="temporary hero week 6">
+            </picture>
         </div>
 
            <div class="event"><h2>Events</h2>
@@ -109,8 +113,9 @@
             Directory of the members of Lodi can do it chamber of commerce.
         </div>
     </aside>
-
     </main>
+
+
     <footer>
         <div class="logo-footer">
             <img class="logo-footer" src="images/logo1.webp" alt="website logo">
