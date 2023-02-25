@@ -23,5 +23,5 @@ if (day == 1 || day == 2) {
     banner.style.display = 'block';
 } else {
     let banner = document.querySelector('.banner');
-    banner.style.display = 'none';
+    banner.style.display = '';
 }
