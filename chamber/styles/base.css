@@ -348,7 +348,6 @@ figure{
     font-size: 20px;
 }
 
-
 .letter {
     font-family: 'PT Serif', serif;
     font-size: 70px;
@@ -364,11 +363,6 @@ figure{
 
 
 /*----------FORM---------*/
-main {
-    max-width: 900%;
-    width: 300px;
-    margin: 0 auto;
-}
 
 .main-joint{
     width: 100%;
@@ -377,11 +371,6 @@ main {
 .registration {
     display:block;
     max-width: 100%;
-}
-
-h3 {
-    font-family: 'PT Serif', serif;
-    font-size: 20px;
 }
 
 form legend {

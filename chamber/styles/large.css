@@ -182,7 +182,7 @@
     herodiscover, .event, .lazyloading {
         grid-row:1/2
     }
-}
+
 .main {
     grid-template-columns: 200px 340px 1fr;
   }
@@ -208,5 +208,5 @@
     width: 300px;
   }
 
-    
+} 
     
