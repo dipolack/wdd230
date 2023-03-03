@@ -347,3 +347,155 @@ figure{
 #copy {
     font-size: 20px;
 }
+
+
+.letter {
+    font-family: 'PT Serif', serif;
+    font-size: 70px;
+    text-align: center;
+    display:block;
+    max-width: 100%;
+    width: 6000px;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*----------FORM---------*/
+main {
+    max-width: 900%;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.main-joint{
+    width: 100%;
+}
+
+.registration {
+    display:block;
+    max-width: 100%;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+form legend {
+    color: #2b513c;
+    padding: 10px;
+}
+
+form fieldset {
+    margin: 20px 0;
+    border: 2px solid silver;
+    padding: 10px;
+    background-color:  rgb(217, 213, 194);
+    max-width: 100%;
+}
+
+form .mform {
+    margin: 10px 0;
+    border: 2px solid silver;
+    padding: .75rem;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 213, 194);
+    max-width: 100%;
+}
+
+.mform label {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+legend {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+label.top,
+label.middle,
+label.submitButton {
+    display: block;
+    padding: .75rem;
+    color: black;
+    font-size: 18px;
+    margin-left: 1px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.box,
+.smallbox {
+    display: block;
+    font-size: 15px;
+    border: 1px solid #000000;
+    padding: .75rem;
+    width: 250px;
+}
+
+.commentsBox {
+    display: block;
+    font-size: 15px;
+    border: 1px solid #000000;
+    padding: .75rem;
+    width: 250px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.button {
+    display: grid;
+    border: none;
+    background-color: #1D7F70;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    max-width: 20rem;
+    text-align: center;
+}
+
+table {
+    margin: 2rem 0;
+}
+
+table thead {
+    text-align: center;
+}
+
+table thead th {
+    padding: 0 8px;
+    width: 100px;
+}
+
+table tbody th {
+    text-align: left;
+    padding: 5px 0;
+}
+
+table th {
+    font-size: 1rem;
+}
+
+table td {
+    text-align: center;
+}
+
+table input {
+    margin: 0 auto;
+}
