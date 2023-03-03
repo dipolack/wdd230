@@ -101,3 +101,94 @@
 
 }
 
+.registration {
+	grid-column: 1/3;
+  }
+
+  .main-joint{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+	margin-right:auto;
+}
+
+  @media (min-width: 40em) {
+	.list,
+	.list section {
+	  display: flex;
+	}
+
+	.list {
+	  flex-direction: column;
+	}
+
+	.list section {
+	  justify-content: left;
+	  align-items: center;
+	}
+
+	.list section h2 {
+	  width: 200px;
+	}
+
+	.list section a {
+	  width: 150px;
+	}
+
+	.list section p:nth-child(2) {
+	  width: 160px;
+	}
+
+	.list section p:nth-child(3) {
+	  width: 100px;
+	}
+
+	div.membership {
+		box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
+		border-radius: 24px;
+		border: 1px solid rgba(11, 43, 158, 0.15);
+		padding: 16px;
+		margin: 15px 0;
+		margin-top: 10;
+		height: 24%;
+		width: 100%;
+		margin-left: 5px;
+	  }
+	  
+	  div.membership h2 {
+		font-weight: bold;
+		font-size: 26px;
+	  }
+	  
+	  div.membership ul li {
+		list-style: none;
+	  }
+	  table {
+		margin: 2rem 0;
+	}
+	
+	table thead {
+		text-align: center;
+	}
+	
+	table thead th {
+		padding: 0 8px;
+		width: 100px;
+	}
+	
+	table tbody th {
+		text-align: left;
+		padding: 5px 0;
+	}
+	
+	table th {
+		font-size: 1rem;
+	}
+	
+	table td {
+		text-align: center;
+	}
+	
+	table input {
+		margin: 0 auto;
+	}
+  }

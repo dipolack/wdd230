@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lodi can do it chamber of commerce Join Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="description" content="Join Page for Lodi can do it chamber of commerce">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+<body>
+    <div class="banner">
+        <div class="banner-message"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m!</p></div>
+    </div>
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="images/logo1.webp" alt="Lodi can do it logo">
+           <h1 class="header-title">Lodi can do it!</h1>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img
+            src="images/fblogo.webp" width=30 height=30 alt="Facebook link"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/link.webp"
+            width=30 height=30 alt="Linkedin link"></a>
+        </div>
+        
+          <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        
+		<div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li> <a href="../chamber/index.html">Home</a></li>
+                    <li class="active"><a href="../chamber/discover.html">Discover</a></li>
+                    <li><a href="">Directory</a></li> 
+                    <li> <a href="/chamber/join.html">Join</a></li>
+                    <li> <a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+                          
+    </header>
+    <main class="main-joint">
+    <div class="registration">
+        <h1>Lodi can do it - Member registration</h1>
+        <hr>
+        <br>
+        <form method="get" action="thanks.html">
+
+            <fieldset class="form">
+            <Legend> Member Registration</Legend>
+
+                    <label class="top" for="name">First Name*
+                    <input class="box" type="text" id="name" name="user_name"  required minlength="3" maxlength="10" size="12"></label>
+                    <label class="top" for="lastname">Last Name*
+                    <input class="box" type="text" id="lastname" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
+                    <label class="top" for="position">Business Title*
+                    <input class="box" type="text" id="position" name="user_position" pattern="[A-Z a-z-' ']{7,}"></label>
+                    <label class="top" for="mail">E-mail Address*
+                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com" required></label>
+                    <label class="top" for="phone">Cell Phone Number*
+                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
+                    <label class="top" for="busname">Business Name*
+                    <input class="box" type="text" id="busname" name="bus_name" required minlength="3" maxlength="20" size="22"></label>
+            </fieldset>
+ 
+            <fieldset class="mform">
+            <legend>Membership Level</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th> ⠀</th>
+                        <th scope="col">NP</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Trainings/Advising</th>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Advertising</th>
+                        <td>✔️</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Discounts</th>
+                        <td>✔️</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Monthly fee</th>
+                        <td>No Fee</td>
+                        <td>$20</td>
+                        <td>$40</td>
+                        <td>$50</td>
+                    </tr>
+                </tbody>
+            </table>
+            <input class="mform" type="hidden" id="member_date" name="member_date" value="">
+          
+            <label> <input type="radio" name="membershiplevel" value="np"> NP Membership</label>
+            <label> <input type="radio" name="membershiplevel" value="bronze"> Bronze Membership</label>
+            <label> <input type="radio" name="membershiplevel" value="silver"> Silver Membership</label>
+            <label> <input type="radio" name="membershiplevel" value="gold"> Gold Membership</label>
+         </fieldset>
+
+                <fieldset class="form">
+                <legend>Additional Business Information</legend>
+                    <label class="submitButton" for="msg">Business Description</label>
+                    <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+            </fieldset>
+            <input class="button" type="submit" value="Send Registration Form">
+        </form>
+    </div> 
+    
+</main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="images/logo1.webp" alt="Lodi can do it logo">
+                </div>
+                <div class="title-footer">
+                    <h2>Lodi can do it!</h2>
+                </div>
+                <div class="contact">
+                    <p>info@lodicandoit.org</p>
+                    <p>+1862-200-1590</p>
+                    <a href="https://goo.gl/maps/GELPvwwzikPNzLqA7">
+                        <img class="location" src="images/location.webp" alt="map"> Our location
+                        </a>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Lodi can do it &nbsp;</span> |  &nbsp; Dorca I Polack &nbsp; |  &nbsp; WDD 230 Project | BYU-Idaho &nbsp; &nbsp; Last modified: &nbsp;  &nbsp; <span id="dateMod"></span>
+
+                </div>            
+            </footer>
+            <script src="scripts/scripts.js"></script>
+</body>
+</html>
