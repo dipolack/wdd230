@@ -1,0 +1,68 @@
+{
+    "businesses": [
+      {
+        "name": "La Fogata",
+        "address": "2 Mercer St suite 12 On, Main St, Lodi, NJ",
+        "phone": "(210) 340-1337",
+        "site": "https://www.lafogata.com/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/lafogata.webp"
+      },
+      {
+        "name": "Clean Image",
+        "address": "2 Pearl Ct, Allendale, NJ 07401",
+        "phone": "(800) 637-1997",
+        "site": "https://cleanimage1.com/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/cleanimage.webp"
+      },
+      {
+        "name": "Lodi Memorial Library",
+        "address": "1 Memorial Dr, Lodi, NJ",
+        "phone": "613-723-1111",
+        "site": "http://lodi.bccls.org/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/lodilibrary.webp"
+      },
+      {
+        "name": "Mazda of Lodi",
+        "membership": "Bronze",
+        "address": "130 Rt. 46 E,Lodi, NJ",
+        "phone": "(833) 230-0061",
+        "site": "https://www.mazdaoflodi.com/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/mazdalodi.webp"
+      },
+      {
+        "name": "Posh Princess Spa",
+        "address": "1 South Main Street, Lodi, NJ",
+        "phone": "(862) 899-7674",
+        "site": "https://www.poshprincesspalace.com/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/poshprincess.webp"
+      },
+      {
+        "name": "South Bergen Jointure Commision",
+        "address": "500 Route 17S, Suite 307, Hasbrouck Heights, NJ",
+        "phone": "201-393-0475",
+        "site": "https://www.njsbjc.org/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/southbergen.webp"
+      },
+      {
+        "name": "Stone Brook",
+        "address": "451 Market Street Saddle Brook, NJ",
+        "phone": "201-880-1030",
+        "site": "http://stonebrookgarden.com/",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/stonebrook.webp"
+      },
+      {
+        "name": "Stop and Shop",
+        "address": "380 W Pleasantview Avenue, Hackensack, NJ",
+        "phone": "(201) 342-6030",
+        "site": "https://stores.stopandshop.com/nj/hackensack",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/stopandshop.webp"
+      },
+      {
+        "name": "Zoilas Kitchen",
+        "address": "179 Harrison Ave, Garfield, NJ",
+        "phone": "(973) 928-2400",
+        "site": "https://zoilaskitchen.com",
+        "photo": "https://dipolack.github.io/wdd230/chamber/images/zoilaskitchen.webp"
+      }
+    ]
+  }
