@@ -1,0 +1,29 @@
+html {
+    background-color:rgb(255, 255, 255);
+}
+
+body{
+
+    text-align: center;
+    margin: 50px auto;
+    width: fit-content;
+    background-image:  radial-gradient(rgb(175, 153, 185), rgba(217, 218, 235, 0.398));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: solid rgb(0, 0, 0);
+    border-radius: .50em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    padding: 2em;
+    margin: 0;
+}
+
+h2{
+    font-family:'Galliard', serif, cursive;
+}
