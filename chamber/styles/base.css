@@ -446,7 +446,7 @@ label.submitButton {
 .button {
     display: grid;
     border: none;
-    background-color: #1D7F70;
+    background-color: #2d8779;
     color: white;
     border-radius: 10px;
     padding: .75rem 1.5rem;
@@ -599,12 +599,12 @@ section h3 {
 }
 
 section a {
-	font-family: "Roboto", Arial, sans-serif;
+	font-family: 'PT Serif', serif;
 	font-size: 0.9rem;
 }
 
 section p {
-	font-family: "Roboto", Arial, sans-serif;
+	font-family: 'PT Serif', serif;
 	font-size: 0.9rem;
     font-weight: bold;
 }
