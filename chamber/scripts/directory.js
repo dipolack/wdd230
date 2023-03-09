@@ -19,7 +19,7 @@ function buildBusinessCards(info, type) {
     if (type == "grid") {
       let img = document.createElement("img");
       img.setAttribute("src", `${business.photo}`);
-      img.setAttribute("alt", `${business.name}`);
+      img.setAttribute("alt", `${""}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
       let h3 = document.createElement("h3");
