@@ -552,7 +552,7 @@ table input {
   .list h3, .list p{
     width: 100%;
   }
-  .directory {
+.directory {
     display: block;
     width: auto;
   }
