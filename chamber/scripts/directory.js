@@ -1,4 +1,4 @@
-const reqtURL = 'https://dipolack.github.io/WDD230/lessons/lesson9/data.json';
+const reqtURL = 'https://dipolack.github.io/wdd230/chamber/json/data.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.getElementById("cards");
