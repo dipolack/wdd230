@@ -50,34 +50,38 @@
     <main>
         <div class="hero">
             <h1>Welcome to Lodi!</h1>
-            <!--<img src="images/lodi.jpg" alt="Lodinj"> -->
             <picture class="herotemp">
-                <source media="(min-width: 300px) and (max-width:699px)" srcset="images/herotemp.webp">
-                <source media="(min-width: 700px) and (max-width:990px)" srcset="images/herotemp.webp">
-                <source media="(min-width: 1000px)" srcset="images/herotemp.webp">
-                <img class="hero-image" src="images/herotemp.webp"
-                    alt="temporary hero week 6">
+                <source media="(min-width: 300px) and (max-width:699px)" srcset="images/lodi.jpg">
+                <source media="(min-width: 700px) and (max-width:990px)" srcset="images/lodi.jpg">
+                <source media="(min-width: 1000px)" srcset="images/lodi.jpg">
+                <img class="hero-image" src="images/lodi.jpg"
+                    alt="city picture">
             </picture>
         </div>
 
            <div class="event"><h2>Events</h2>
             <img src="images/recycle-logo.webp" width=40 height=40 alt="recycle-logo">
-            <h3>02/08/2023</h3>
+            <h3>04/01/2023</h3>
             <h4>Plastic, Glass & Cans Recycling Collection</h4>
             <h4>7 am Townwide</h4>
             </div>
             
-        <div class="weather"><h2>Lodi's Weather</h2>
-           <h2><img src="images/weather1.webp"  width=40 height=40 alt="weatherpicture"> 
-            <span id="temperature"></span> ℉</h2>
-            <hr>
-            <h3>Clear with periodic clouds</h3>
-            <hr>
-            <h3>Wind Speed: <span id="wind-speed"></span> mph</h3>
-            <h3>Wind Chill: <span id="wind-chill"></span> ℉</h3>
-            
-        </div>
- 
+
+            <div class="weather"><h2>Lodi's weather</h2> <hr>
+                <div class="weather-div">
+                       <div class="weather-container">
+                       <h2><span id="temp"></span> ℉</h2> 
+                       <figure>
+                       <img src="" alt="" id="weathericon">
+                       <figcaption id="figcaption"></figcaption>
+                       </figure>
+                       </div>
+           <hr><br><p>Wind: <span id="wind"></span> MPH</p>
+           <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
+                        </div>
+            <a class="weather-link" href="https://openweathermap.org/" target="_blank">Weather by OpenWeather.org</a>
+           </div>
+
         <div class="news"> <h3>About us</h3>
             <h4>We pride ourselves with assisting the businesses in our greater area through trainings, 
             seminars and networking events as well as creating a positive impact through community relations
@@ -93,34 +97,12 @@
             <p class="text-join">Discover how to join the Lodi can do it chamber of commerce and how it will benefit your business. </p>
         </div>
 
-        <aside class="aside">
-        <div>
-            <b>Social Services</b><br>
-            Are you feeling overwhelmed and frustrated that everything 
-            you have done does not seem to have the impact you had hoped for?
-            Being a small business owner is no simple task. 
-            We understand all to well all those feelings of uncertainty and frustration. 
-            The good news is, resources are available to help you.
-        </div>
-
-        <div> 
-            <b>Training</b><br> 
-            Training takes the form of workshops, seminars and conferences on topics such as:
-            Starting a Small Business, buying a Business or Franchise,
-            Marketing, financing, accounting Fundamentals, developing a Business Plan
-            website Management, E-Commerce and Social Media.
-        </div>
-
-        <div class="Spotlight3"><b> Member Directory</b><br>
-            Directory of the members of Lodi can do it chamber of commerce.
-        </div>
-    </aside>
+        <aside class="aside"> </aside>
     </main>
 
 
     <footer>
-        <div class="logo-footer">
-            <img class="logo-footer" src="images/logo1.webp" alt="website logo">
+            <img class="logo" src="images/logo1.webp" alt="website logo">
                 </div>
                 <div class="title-footer">
                     <h2>Lodi can do it!</h2>
@@ -129,8 +111,9 @@
                     <p>info@lodicandoit.org</p>
                     <p>+1862-200-1590</p>
                     <a href="https://goo.gl/maps/GELPvwwzikPNzLqA7">
-                        <img class="location" src="images/location.webp" alt="map"> Our location
+                        <img class="location" src="images/location.webp" width=30 height=30 alt="map"> Our location
                         </a>
+
                     </div>
                 <div class="info">  
                         <span>  &nbsp; &nbsp; &copy;<span id="©">
@@ -140,5 +123,6 @@
             </footer>
             <script src="scripts/scripts.js"></script>
             <script src="scripts/windchill.js"></script>
+            <script src="scripts/spotlight.js"></script>
 </body>
 </html>
