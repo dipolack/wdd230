@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-	background-color: #1D7F70;
+	background-color: #188f7d;
 	display: grid;
     grid-template-columns: 8fr 2fr 1fr;
 	align-items: center;
@@ -278,7 +278,7 @@ li {
 }
 
 aside {
-    background-color: #c2bdbd;
+    background-color: #b0b2b4;
     padding: 15px;
 }
 
@@ -551,7 +551,7 @@ label.submitButton {
 .button {
     display: grid;
     border: none;
-    background-color: #1D7F70;
+    background-color: #188f7d;
     color: white;
     border-radius: 10px;
     padding: .75rem 1.5rem;
@@ -663,8 +663,7 @@ table input {
   }
 
   section img {
-    height: 200px;
-    width: 300px;
+    aspect-ratio: 1;
   }
 
 .list {

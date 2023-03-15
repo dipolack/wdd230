@@ -149,13 +149,13 @@
 		width: 100%;
 		margin-top: 20px;
 		padding: 12px;
-		background-color: #827786;
+		background-color: #acbfc2;
 		border-radius: 5px;
 		border: none;
 	}
 	
 	.join-us:hover{
-		background-color: #7b7299;
+		background-color: #7fa7af;
 	}
 
 	div.membership {

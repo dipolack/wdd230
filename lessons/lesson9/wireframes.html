@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Directory Wireframes</title>
+        <style>
+            * {
+                font-family: 'PT Serif', serif
+            }
+            ul {
+                list-style-type: none;
+            }
+            li {
+                display: grid;
+                grid-template-columns: 75px auto;
+                width: calc(75px + 220px);
+                transition: all 0.3s;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            li:hover {
+                background: #c1e9f0;
+            }
+            li img {
+                justify-self: center;
+            }
+            li a {
+                color: rgb(16, 6, 214);
+                padding: 1.5em 0;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Week 9 Directory Wireframes</h1>
+        <ul>
+            <li><img src="./images/desktop1.webp" alt="desktop wire-frame"><a href="./images/homepage-desktop.webp">Homepage Laptop/Desktop View</a></li>
+            <li><img src="./images/tablet3.webp" alt="tablet wire-frame"><a href="./images/homepage-tablet.webp">Homepage Tablet View</a></li>
+            <li><img src="./images/mobile2.webp" alt="mobile wire-frame"><a href="./images/homepage-mobile.webp">Homepage Mobile View</a></li>
+        </ul>
+    </body>
+</html>
