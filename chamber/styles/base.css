@@ -654,7 +654,9 @@ table input {
   }
 
   section img {
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
+    width: 150px;
+    height: 150px;
   }
 
 .list {
