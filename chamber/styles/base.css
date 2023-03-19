@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
 
 :root{
-    background-color: #7da0a6;
+    background-color: #98a7a2;
     color: black;
 }
 
@@ -278,7 +278,7 @@ li {
 }
 
 aside {
-    background-color: #b0b2b4;
+    background-color: #9e9c9c;
     padding: 15px;
 }
 
@@ -325,7 +325,7 @@ main div {
 }
 
 main div {
-    background-color: #dee2c7;
+    background-color: #dee0cb;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -355,7 +355,7 @@ span {
     min-height: 100%;
 }
 
-.banner-message {
+.banner {
     width: 100%;
     background-color: #C2BDBD;
     color: #000000;
@@ -433,7 +433,7 @@ img[data-src] {
 }
 
 .mygallery figcaption {
-    background-color: #FFECD1;
+    background-color: #fddfb4;
     border: thin rgb(0, 0, 0) solid;
     padding: 5px;
     text-align: center;
@@ -535,7 +535,7 @@ label.submitButton {
     font-size: 15px;
     border: 1px solid #000000;
     padding: .75rem;
-    width: 250px;
+    width: 80%;
 }
 
 .commentsBox {
@@ -543,16 +543,16 @@ label.submitButton {
     font-size: 15px;
     border: 1px solid #000000;
     padding: .75rem;
-    width: 250px;
-    height: 120px;
+    width: 80%;
+    height: 80%;
     margin-left: 10px;
 }
 
 .button {
     display: grid;
     border: none;
-    background-color: #188f7d;
-    color: white;
+    background-color: #9ac5be;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: .75rem 1.5rem;
     margin: auto;
@@ -568,26 +568,17 @@ table {
     margin: 2rem 0;
 }
 
-table thead {
-    text-align: center;
-}
-
-table thead th {
-    padding: 0 8px;
-    width: 100px;
-}
 
 table tbody th {
     text-align: left;
     padding: 5px 0;
 }
 
-table th {
+table th, table td, table thead th {
     font-size: 1rem;
-}
-
-table td {
     text-align: center;
+    padding: 0 8px;
+    width: 100px;
 }
 
 table input {
@@ -725,3 +716,43 @@ img {
 .directory h1 {
     text-align: center;
 }
+
+.board-contacts{
+    display: block;
+    padding-top: 10px;
+}
+
+.info {
+    display: block;
+    width: 100%;
+}
+
+.board {
+    display: block;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.thanks {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+input, textarea {
+        display: block;
+        font-size: 15px;
+        border: 1px solid #000000;
+        padding: .75rem;
+        width: 80%;
+    }
+
+input[type=submit] {
+    background-color: #a4acad;
+}
+
+input[type=submit]:hover {
+    background-color:#9cb6bb;
+   }

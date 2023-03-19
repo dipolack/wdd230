@@ -149,7 +149,7 @@
 		width: 100%;
 		margin-top: 20px;
 		padding: 12px;
-		background-color: #acbfc2;
+		background-color: #a4acad;
 		border-radius: 5px;
 		border: none;
 	}
@@ -208,4 +208,16 @@
 		margin: 0 auto;
 	}
   
-
+	.board-contacts h1{
+		text-align: center;
+	}
+	
+	.contact {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.contact-info {
+		padding: 10px;
+		text-align: left;
+	}
