@@ -1,0 +1,18 @@
+@media only screen and (min-width: 992px) {
+
+    .content-wrapper {
+        color: #565656;
+
+        display: grid;
+        
+        grid-gap: 20px;
+        grid-template-columns: 330px auto;
+        grid-template-areas:
+            "weather-summary  city-desc"
+            "weather-forcast city-desc"
+            "totalDrinksDisplay  city-desc";
+        overflow-wrap: break-word;
+        margin-block: 20px;
+
+    }
+}
