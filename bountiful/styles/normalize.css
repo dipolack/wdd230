@@ -200,6 +200,7 @@ body>* {
     padding-left: 15px;
     padding-right: 15px;
     border-style: groove;
+    text-align: center;
   }
   
   .city-desc {
