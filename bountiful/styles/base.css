@@ -37,11 +37,7 @@ section.grid img {
 
 section {
     padding: 0 1em;
-} */
-
-nav ul {
-    display: flex;
-}
+} 
 
 section.wireframe {
     padding: 1rem;
