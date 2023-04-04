@@ -224,6 +224,7 @@ body>* {
     padding-left: 15px;
     padding-right: 15px;
     border: 2px dashed #838383;
+    align-content: center;
   }
   
   .weather-forcast {
