@@ -45,8 +45,3 @@ function lazyLoad() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
-
-
-
-
-
