@@ -142,11 +142,10 @@ function showResult(drinkDetail) {
 
     // result on html file fresh.html
 
-    resultHTML += `<br><br> `;
+    resultHTML += '<br><br>';
     x.innerHTML = resultHTML;
 
 }
-
 
 function handleSubmit(event) {
     event.preventDefault();
